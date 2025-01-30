@@ -1,0 +1,41 @@
+.nav {
+  
+  background-color: #333;
+  padding: 10px 20px;
+  margin-top: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.webHeading{
+  background-color: #333;
+  text-align: left;
+  color: azure;
+  padding: 10px;
+  margin-top: 0%;
+}
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+   gap: 40px;
+   margin-left: 60%;
+   align-items: center;
+}
+
+.nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  margin-right: 0px;
+}
+
+@media (max-width: 768px) {
+  .nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}          

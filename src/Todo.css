@@ -1,0 +1,99 @@
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+    font-size: 40px;
+  }
+  div {
+    justify-content: center;
+    gap: 10px;
+  }
+  .todoInput[type="text"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 300px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  .dltBtn{
+    background-color: #bb3e03 ;
+  }
+  .dltBtn:hover {
+    background-color: #9b2226;
+  }
+  
+  .table {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  table {
+    width: 80%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f4f7fc;
+  }
+  
+  td {
+    font-size: 14px;
+  }
+  
+
+  td input[type="text"] {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 80%;
+  }
+  
+  button {
+    margin: 5px;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  @media (max-width: 768px) {
+    .table {
+      width: 100%;
+    }
+  
+    table {
+      width: 100%;
+    }
+  
+    input[type="text"] {
+      width: 200px;
+    }
+  }
+  
